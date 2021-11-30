@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-29T15:29:54.812Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="NVnyDEVtrWDfKglBiRMD" version="15.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-30T07:29:17.696Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="rEArlxNTbIMCadDpYwAR" version="15.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,7 +58,8 @@
             <mxPoint x="50" y="280" as="targetPoint" />
             <Array as="points">
               <mxPoint x="230" y="540" />
-              <mxPoint x="50" y="540" />
+              <mxPoint x="80" y="540" />
+              <mxPoint x="80" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -71,13 +72,11 @@
             <mxPoint x="230" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aSZAhxSPqSsWb4NRJgwL-29" value="T" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-30" target="aSZAhxSPqSsWb4NRJgwL-34">
+        <mxCell id="aSZAhxSPqSsWb4NRJgwL-29" value="T" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-30" target="aSZAhxSPqSsWb4NRJgwL-42">
           <mxGeometry x="0.2" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
+            <mxPoint x="540" y="550" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="aSZAhxSPqSsWb4NRJgwL-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-30" target="aSZAhxSPqSsWb4NRJgwL-40">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aSZAhxSPqSsWb4NRJgwL-30" value="j&amp;lt;l" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="440" width="80" height="80" as="geometry" />
@@ -85,14 +84,21 @@
         <mxCell id="aSZAhxSPqSsWb4NRJgwL-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-32" target="aSZAhxSPqSsWb4NRJgwL-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="aSZAhxSPqSsWb4NRJgwL-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-30" target="aSZAhxSPqSsWb4NRJgwL-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aSZAhxSPqSsWb4NRJgwL-46" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aSZAhxSPqSsWb4NRJgwL-44">
+          <mxGeometry x="-0.4235" y="-1" relative="1" as="geometry">
+            <mxPoint x="-29" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aSZAhxSPqSsWb4NRJgwL-32" value="j = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="480" y="380" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="aSZAhxSPqSsWb4NRJgwL-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-34" target="aSZAhxSPqSsWb4NRJgwL-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aSZAhxSPqSsWb4NRJgwL-34" value="Przypisz archetyp[i] do odpowiadającej klasy" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="550" width="120" height="60" as="geometry" />
+        <mxCell id="aSZAhxSPqSsWb4NRJgwL-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-42" target="aSZAhxSPqSsWb4NRJgwL-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="610" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="aSZAhxSPqSsWb4NRJgwL-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-36">
           <mxGeometry relative="1" as="geometry">
@@ -113,7 +119,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aSZAhxSPqSsWb4NRJgwL-40" value="STOP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="640" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSZAhxSPqSsWb4NRJgwL-42" value="Wpisz wszystkie możliwe kombinacje klas do nowej listy" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="445" y="550" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aSZAhxSPqSsWb4NRJgwL-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aSZAhxSPqSsWb4NRJgwL-43" target="aSZAhxSPqSsWb4NRJgwL-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aSZAhxSPqSsWb4NRJgwL-43" value="Lista wszystkich możliwych zestawień turniejowych" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="500" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
